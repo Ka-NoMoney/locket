@@ -45,25 +45,6 @@ if (ua.includes("Locket")) {
             interval: 2592000,
             profile_banner: true
         }),
-        feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD",
-            tag_gradient: true,
-            tag_style: "gold_gradient",
-            title: " bạn đang chạy config 45s của nca ",
-            feature_set: [
-                {
-                    title: "✨✨✨✨✨",
-                    body: "💛💛💛💛💛💛💛💛💛💛",
-                    imageURL: "https://i.ibb.co/xkJMqKn/photo-2026-10-16-15-31-19.png"
-                
-                }
-            ],
-            primary_button_title: "done",
-            campaign: "locket_gold_welcome_v3",
-            start_at: "2020-01-01T00:00:00",
-            end_at: "2099-12-31T23:59:59",
-            use_local_time_zone: true
-        }),
         android_subscribe_gold_button_enabled: "false",
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true",
@@ -95,7 +76,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 45.0;
+    var MY_VIDEO_DURATION = 60.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
